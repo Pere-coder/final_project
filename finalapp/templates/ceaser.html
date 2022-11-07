@@ -1,0 +1,20 @@
+<h1>Heres your encrypted message</h1>
+{% if new_mnemo %}
+{% for mnems in  new_mnemo %}
+{{mnems}}
+{% endfor %}
+<br>
+<br>
+<button onclick="myFunction()">Send encrypted message</button>
+
+
+<p id="demo"></p>
+<script>
+    function myFunction() {
+      document.getElementById("demo").innerHTML = "Your message has been sucesfully sent";
+      alert('your message has been sucesfully sent');
+    }
+    </script>
+{% else %}
+<h5><a href="{% url 'profile' %}">Click here </a> to go to generate page</h5>
+{% endif %}

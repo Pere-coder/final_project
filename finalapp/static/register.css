@@ -1,0 +1,146 @@
+body, html{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.background{
+    position: absolute;
+    background-color: white ;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(27, 3, 27);
+}
+
+.back{
+    position: inherit;
+    width: 75%;
+    height: 90%;
+    background-image: url(./images/left.png);
+    background-color: white;
+    border-radius: 20px;
+}
+
+.robot{
+    position: inherit;
+    float: right;
+    width: 40%;
+    margin-top: 100px;
+    margin-left: 52%;
+}
+
+.right{
+    position: inherit;
+    float: right;
+    width: 47%;
+    height: 100%;
+    margin-top: 0px;
+    margin-left: 50%;
+}
+
+.middle{
+    position: absolute;
+    width: 50px;
+    align-self: center;
+    margin-left: 48%;
+    margin-top: 30px;
+}
+
+.icon{
+    position: relative;
+    width: 5%;
+    left: 5%;
+    top: 10%;
+    bottom: 76.95%;     
+}
+
+.register{
+    margin-top: 80px;
+    margin-left: 5%;
+    width: 120px;
+    height: 28px;  
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 48px;
+    letter-spacing: 0.05em;
+
+    color: #23669A;
+    
+}
+
+#username{
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 40%;
+    height: 40px;
+    left: 5%;
+    top: 220px;
+
+    background: #FFFFFF;
+    border: 1px solid rgba(25, 10, 53, 0.5);
+    border-radius: 5px;
+}
+
+#password{
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 40%;
+    height: 40px;
+    left: 5%;
+    top: 280px;
+
+    background: #FFFFFF;
+    border: 1px solid rgba(25, 10, 53, 0.5);
+    border-radius: 5px;
+}
+
+#employee_id{
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 40%;
+    height: 40px;
+    left: 5%;
+    top: 340px;
+
+    background: #FFFFFF;
+    border: 1px solid rgba(25, 10, 53, 0.5);
+    border-radius: 5px;
+}
+
+.signup{
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 40%;
+    height: 40px;
+    left: 5%;
+    top: 400px;
+
+    background: #23669A;
+    box-shadow: 0px 5px 10px rgba(19, 82, 97, 0.29);
+    border: 1px solid rgba(25, 10, 53, 0.5);
+    border-radius: 5px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24.9231px;
+    line-height: 30px;
+    letter-spacing: 0.05em;
+
+    color: #FFFFFF;
+
+}
+
+.already{
+    margin-top: 320px;
+    margin-left: 5%;
+}

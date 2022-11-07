@@ -1,0 +1,75 @@
+{% comment %} <form method='POST' action='.'>
+    {% csrf_token %}
+        <label>type in your key</label>
+        <input name='alice' type='number'></input>
+        <input name='p' type='number'></input>
+        <input name='q' type='number'></input>
+    
+        <input type="Submit" value="Submit">
+    {% for value in new_a %}
+    {{value.p}}
+    {{value.q}}
+    {% endfor %}
+    </form> {% endcomment %}
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page One</title>
+    <link rel="stylesheet" href="/static/pageone.css">
+</head>
+<body>
+    <script>
+        function add()
+        {
+          var numOne, numTwo, numThree, sum;
+          numOne = parseInt(document.getElementById("cal_a").value);
+          numTwo = parseInt(document.getElementById("cal_b").value);
+          numThree = parseInt(document.getElementById("cal_c").value);
+          sum = numOne ** numTwo % numThree;
+          document.getElementById("answer").value = sum;
+        }
+      now = new Date();
+      var n = ["2","3","5","7","11","13","17","19","23","29","31","37","41","43","47","53","59","61","67","71","73","79","83","89","97"];
+      randomNum = ''; randomNum2 = '';
+      randomNum += n[Math.floor(Math.random() * n.length)];
+      randomNum2 += n[Math.floor(Math.random() * n.length)];
+      window.onload = function () {
+          document.getElementById("numb_a").value = randomNum;
+          document.getElementById("numb_b").value = randomNum2;
+          document.getElementById("cal_a").value = randomNum;
+          document.getElementById("cal_c").value = randomNum2;
+          document.getElementById("numb_a").disabled = false;
+          document.getElementById("numb_b").disabled = false;
+          
+      }
+    </script>
+            <div class="background">
+                <img src="" alt="">
+                <div class="back">
+                    <img src="/static/images/homeback (2).png" alt="" class="glass">
+                    <form class="key_form" action="." method="POST"> {% csrf_token %}
+                        <input id="numb_a" name="p">
+                        <input id="numb_b" name="q">
+                        <input name="alice" type="text"id="numb_c" required>
+                        <button class="submit"><p class="button_text"> Submit</p></button>
+                    </form>
+                    <div class="cal">
+                        <img src="/images/calculator.png" alt="" class="cal_img">
+                        <input type="text" name="" id="cal_a" >
+                        <input type="text" name="" id="cal_b" >
+                        <input type="text" name="" id="cal_c" >
+                        <button class="cal_d" onclick="add()">Solve</button>
+                        <input id="answer">
+                    </div>
+                    <!-- <input type="text" name="" id="cal_s" placeholder="S-k"> -->
+                </div>
+            </div>
+    
+</body>
+</html>
+    

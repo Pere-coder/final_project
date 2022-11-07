@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="/static/homepage.css">
+</head>
+<body>
+    <div class="background">
+        <img src="" alt="">
+        <div class="back">
+            <img src="/static/images/homeback (2).png" alt="" class="glass">
+        <form action="" method="POST" class="mnemo">
+            {% csrf_token %}
+
+         <textarea name="key_password" id="mnemonic" cols="30" rows="10" placeholder="Insert mnemonic"></textarea>
+            <button class="submit">
+                <p class="button_text"> Submit</p>
+            </button>
+        </form>
+        </div>
+    </div>
+    
+</body>
+</html>

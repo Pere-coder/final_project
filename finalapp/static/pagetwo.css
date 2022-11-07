@@ -1,0 +1,222 @@
+body, html{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.background{
+    position: absolute;
+    background-color: white ;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(./images/homeback\ \(1\).png);
+}
+
+.back{
+    position: inherit;
+    width: 90%;
+    height: 90%;
+    border-radius: 20px;
+    justify-content: center;
+    align-self: center;
+    display: flex;
+}
+
+.glass{
+    position: inherit;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 75%;
+    
+}
+
+.key_form{
+  position: inherit;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  align-self: center;
+  display: flex;
+}
+
+.numb_a{
+position: inherit;
+ width: 65px;
+ height: 50px;
+ margin-top: 100px;
+ border-radius:  10px;
+ margin-right: 200px;
+ box-sizing: border-box;
+ background-color: #7C7A7A;
+}
+
+.numb_b{
+  position: inherit;
+   width: 65px;
+   height: 50px;
+   margin-top: 100px;
+   border-radius:  10px;
+   margin-left: 200px;
+   box-sizing: border-box;
+   background-color: #FF82A9;
+  }
+
+  #numb_c{
+    position: inherit;
+     width: 65px;
+     height: 50px;
+     margin-top: 100px;
+     border-radius:  10px;
+     margin-top: 200px;
+     box-sizing: border-box;
+    }
+
+
+  .submit{
+    background: #23669A;
+    box-shadow: 0px 5px 10px rgba(25, 10, 53, 0.43);
+    border-radius: 10px;
+    box-sizing: border-box;
+    position: inherit;
+    width: 100px;
+    height: 50px;
+    top: 320px;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    
+  }
+
+  .submit:hover{
+    cursor: pointer;
+  }
+
+.button_text{
+    position: relative;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 40px;
+    color: #FFFFFF;
+    font-size: 23px;
+    text-align: center;
+    margin: auto;
+  }
+
+  .cal{
+    position: inherit;
+    width: 10%;
+    height: 30%;
+    margin-top: 380px;
+    margin-left: -50%;
+  }
+
+  .cal_img{
+    position: inherit;
+    width: 150px;
+  }
+
+  #cal_a{
+    position: inherit;
+     width: 30px;
+     height: 25px;
+     margin-top: 40px;
+     margin-left: 20px;
+     border-radius:  5px;
+     margin-right: 200px;
+     box-sizing: border-box;
+     background-color: #7C7A7A;
+    }
+
+    #cal_b{
+      position: inherit;
+       width: 30px;
+       height: 25px;
+       margin-top: 40px;
+       margin-left: 60px;
+       border-radius:  5px;
+       margin-right: 200px;
+       box-sizing: border-box;
+       background-color: white;
+      }
+
+      #cal_c{
+        position: inherit;
+         width: 30px;
+         height: 25px;
+         margin-top: 40px;
+         margin-left: 100px;
+         border-radius:  5px;
+         margin-right: 200px;
+         box-sizing: border-box;
+         background-color: #FF82A9;
+        }
+
+        .cal_d{
+          position: inherit;
+           width: 40px;
+           height: 20px;
+           margin-top: 80px;
+           margin-left: 56px;
+           border-radius:  5px;
+           margin-right: 200px;
+           display: flex;
+           text-align: center;
+           align-items: center;
+           justify-content: center;
+           box-sizing: border-box;
+           color: #FFFFFF;
+           background: #23669A;
+            box-shadow: 0px 2.677px 5.354px rgba(25, 10, 53, 0.43);
+          }
+
+#answer{
+  position: inherit;
+   width: 30px;
+   height: 25px;
+   margin-top: 120px;
+   margin-left: 60px;
+   border-radius:  5px;
+   margin-right: 200px;
+   box-sizing: border-box;
+   background-color: #78d2ee;
+  }
+
+  #cal_s{
+    position: inherit;
+     width: 25%;
+     height: 120px;
+     margin-top: 360px;
+     margin-left: 40%;
+     float: right;
+     border-radius: 5px;
+     box-sizing: border-box;
+
+    }
+
+    #ciphered_mnemonic{
+      position: inherit;
+       width: 100%;
+       height: 80%;
+       float: right;
+       border-radius: 5px;
+       box-sizing: border-box;
+       background-color: white;
+      }
+
+      #submit_mnemonic{
+        position: relative;
+         width: 40%;
+         height: 30%;
+         margin-left: 30%;
+         margin-top: 120px;
+         border-radius: 5px;
+         box-sizing: border-box;
+         background: #23669A;
+         color: white;
+        }

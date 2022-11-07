@@ -1,0 +1,93 @@
+body, html{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.background{
+    position: absolute;
+    background-color: white ;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(./images/homeback\ \(1\).png);
+}
+
+.back{
+    position: inherit;
+    width: 90%;
+    height: 90%;
+    border-radius: 20px;
+    justify-content: center;
+    align-self: center;
+    display: flex;
+}
+
+.glass{
+    position: inherit;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 75%;
+    
+}
+
+.mnemo{
+position: inherit;
+width: 30%;
+height: 30%;
+display: flex;
+justify-content: center;
+
+}
+
+#mnemonic{
+position: inherit;
+ width: 100%;
+ height: 80%;
+ margin-top: 100px;
+ border-radius:  5px;
+ box-sizing: border-box;
+}
+
+::-webkit-input-placeholder{
+    text-align: center;
+    color: #23669A;
+    font-family: 'Inter';
+    font-style: italic;
+    font-size: 30px;
+}
+
+  .submit{
+    background: #23669A;
+    box-shadow: 0px 5px 10px rgba(25, 10, 53, 0.43);
+    border-radius: 10px;
+    box-sizing: border-box;
+    position: inherit;
+    width: 100px;
+    height: 50px;
+    top: 320px;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    
+  }
+
+  .submit:hover{
+    cursor: pointer;
+  }
+
+.button_text{
+    position: relative;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 40px;
+    color: #FFFFFF;
+    font-size: 23px;
+    text-align: center;
+    margin: auto;
+  }

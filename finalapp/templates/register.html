@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/static/register.css">
+    <title>Employee Registration</title>
+</head>
+<body>
+    <div class="background">
+        <img src="" alt="">
+        <div class="back">
+            <img src="/static/images/icon.png" alt="" class="icon">
+            <img src="/static/images/right.png" alt="" class="right">
+            <img src="/static/images/mid.png" alt="" class="middle">
+            <img src="/static/images/robot.png" alt="" class="robot">
+            <h1 class="register">Register</h1>
+            <form action="#" method="POST">
+                {% csrf_token %}
+                {%if messages%}
+                {%for message in messages%}
+                <p style = 'color: firebrick'>{{message}}</p>
+                {%endfor%}
+                {%endif%}
+                <input type="text" name="username" id="username" placeholder="Username">
+                {% comment %} <input type="text" name="email" id="email" placeholder="Email"> {% endcomment %}
+                <input type="text" name="password" id="password" placeholder="Password">
+                <input type="text" name="" id="employee_id" placeholder="Employee Id">
+                <button class="signup">Register</button>
+                <div class="already"><p>Already have an have an account? <a href={%url 'login' %}>Login now</a></p></div>
+          </form>
+
+
+        </div>
+    </div>
+    
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
